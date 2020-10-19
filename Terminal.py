@@ -11,5 +11,13 @@ while True:
 	try:
 		print('┌─────────[root@DESKTOP-962732] \033[34m~\033[m')
         cmd: str = input(f'└─$ ').strip()
+        if cmd == 'help':
+        	print('Comando:          Função:\n')
+        	print('help              Ajuda')
+        	print('exit              Sai do Dsa Terminal')
+       	elif cmd == 'exit':
+       		break
+       	else:
+       		print(f'{cmd}: Comando invalido!')
 	except:
 		print('Dsa Terminal: Error internal storage!')
