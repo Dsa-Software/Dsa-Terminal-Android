@@ -1,4 +1,5 @@
 package bin;
 
-public class Database {
+public class Database{
+
 }
