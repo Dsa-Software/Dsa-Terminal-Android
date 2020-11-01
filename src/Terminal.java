@@ -1,8 +1,8 @@
-public class Terminal {
-    public static void main(String[] args) {
+import bin.Database;
+public interface Terminal {
+    static void main(String[] args) {
         System.out.println("Iniciando Dsa Terminal. . .");
-        char cmd;
-        while (true){
-        }
+        System.out.println("(C) 2020 Dsa Terminal v0.0.1 Android");
+        System
     }
 }
